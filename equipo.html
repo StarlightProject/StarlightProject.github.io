@@ -87,16 +87,35 @@
             margin-top: 40px;
         }
     
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+        }
+    
         .card {
             background-color: #333;
             color: #fff;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
+        }
+    
+        .card img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
         }
     
         .card h3 {
             margin-top: 0;
+            font-weight: bold;
+        }
+    
+        .card p {
+            font-weight: lighter;
         }
     
         .contact-buttons {
@@ -145,6 +164,23 @@
 
 <div class="container">
     <h2>Nuestro Equipo</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://cdn.discordapp.com/avatars/601951575644045353/31a536e00005fca58758eeddae46585d.png" alt="Foto de perfil">
+            <h3>Roier</h3>
+            <p>Fundador y Lider administrativo.</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn.discordapp.com/avatars/348646029110804491/48a79b12483d4d8ebda5defc213b31e9.png" alt="Foto de perfil">
+            <h3>Krav</h3>
+            <p>Fundador, Desarrollador y Administrador.</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn.discordapp.com/avatars/591035491894165508/aaf456dd24dd5d479ecb5e56c4a3010b.png" alt="Foto de perfil">
+            <h3>Ryu</h3>
+            <p>Fundador, Desarrollador y Administrador.</p>
+        </div>
+    </div>
 </div>
 
 <div style="height: 50px;"></div>
